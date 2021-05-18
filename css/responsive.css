@@ -1,0 +1,380 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) { 
+    .work_right {
+        padding: 23px;
+            padding-right: 23px;
+        padding-right: 100px;
+    }
+    .about_left {
+        margin-top: -92px;
+        text-align: left;
+        padding: 100px;
+            padding-left: 100px;
+        padding-left: 0px;
+    }
+
+}
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { 
+    .header_bg{
+         background-size:cover;
+     }
+ 
+     .header .header_text_bg{
+         width: 94%;
+         margin-left: 9%;
+     }
+     .catagory {
+         padding-top: 50px;
+         padding-bottom: 30px;
+     }
+     .gallery{
+         padding-left: 50px;;
+     }
+     .gallery .img-fluid{
+         max-width:100%;
+         margin-bottom: 15px;
+     }
+     .about_left{
+         width:50%;
+         margin-top:0px;
+     }
+     .about_left .display-3 {
+         padding-left: 60px;
+         font-size: 1.5rem;
+     }
+     .about_left p {
+         width: 123%;
+         padding-left: 38px;
+         margin-top: 20px;
+         font-size: 16px;
+     }
+     .about_right{
+         width:50%;
+     }
+     .about_right img {
+         margin-top: 100px;
+     }
+     .about_work{
+         margin-top: 20px;
+     }
+     .work_right{
+         width:50%;
+         margin-top:0px;
+         padding: 0px;
+         padding-right: 50px;
+     }
+     .work_right .display-3 {
+         padding-left: 60px;
+         font-size: 1.5rem;
+     }
+     .work_right p {
+         width: 123%;
+         font-size: 16px;
+         padding-left: 50px;
+         margin-top: -35px;
+     }
+     .work_left{
+         width:50%;
+     }
+     .work_left img {
+         margin-top: 10px;
+     }
+     .about_work {
+         margin-bottom: 0px;
+     }
+     .about_right img {
+         margin-top: 0px;
+     }
+     .price_list{
+         padding-top: 10%;
+         padding-left: 27.1%;
+         padding-right: 15.3%;
+         padding-bottom: 3%;
+     }
+     .price_list .d-flex{
+         display: unset !important;
+     }
+     .pricing ul{
+         margin-bottom: 40px;
+         box-shadow: 0px 0px 7px black;
+         margin-right: 68px;
+     }
+     .contact {
+         padding: 10% 5%;
+     }
+     .contact .display-3 {
+         font-size: 2.5rem;
+     }
+     .form{
+         margin-top: 10%;
+     }
+     form .d-flex{
+         display:unset !important;
+     }
+     .contact .form-control {
+         margin: 4%;
+         padding: 20px 40px;
+     }
+  }
+
+  
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+    .header_bg{
+         background-size:cover;
+ 
+     }
+     .header .header_text_bg{
+         margin-left: 2%;
+         width: 100%;
+     }  
+     .header .header_text{
+         width:100%;
+         padding: 5% 10%;
+     }
+ 
+     .header .header_text_bg .header_text  p{
+         padding:6%;
+     }
+    .header_bg{
+         background-size:cover;
+     }
+ 
+     .header .header_text_bg{
+         width: 94%;
+         margin-left: 9%;
+     }
+     .catagory {
+         padding-top: 50px;
+         padding-bottom: 30px;
+     }
+     .gallery{
+         padding-left: 50px;;
+     }
+     .gallery .img-fluid{
+         max-width:90%;
+         margin-bottom: 15px;
+     }
+     .about_left{
+         width:50%;
+         margin-top:0px;
+     }
+     .about_left .display-3 {
+         padding-left: 60px;
+         font-size: 1.5rem;
+     }
+     .about_left p {
+         width: 123%;
+         padding-left: 38px;
+         margin-top: 20px;
+         font-size: 16px;
+     }
+     .about_right{
+         width:50%;
+     }
+     .about_right img {
+         margin-top: 100px;
+     }
+     .about_work{
+         margin-top: 20px;
+     }
+     .work_right{
+         width:50%;
+         margin-top:0px;
+         padding: 0px;
+         padding-right: 50px;
+     }
+     .work_right .display-3 {
+         padding-left: 60px;
+         font-size: 1.5rem;
+     }
+     .work_right p {
+         width: 123%;
+         font-size: 16px;
+         padding-left: 50px;
+         margin-top: -35px;
+     }
+     .work_left{
+         width:50%;
+     }
+     .work_left img {
+         margin-top: 10px;
+     }
+     .price_list{
+         padding-top: 10%;
+         padding-left: 27.1%;
+         padding-right: 15.3%;
+         padding-bottom: 3%;
+     }
+     .price_list .d-flex{
+         display: unset !important;
+     }
+     .pricing ul{
+         margin-bottom: 40px;
+         box-shadow: 0px 0px 7px black;
+         margin-right: -17px;
+     }
+     .contact {
+         padding: 10% 5%;
+     }
+     .contact .display-3 {
+         font-size: 2.5rem;
+     }
+     .form{
+         margin-top: 10%;
+     }
+     form .d-flex{
+         display:unset !important;
+     }
+     .contact .form-control {
+         margin: 4%;
+         padding: 20px 40px;
+     }
+  }
+ 
+ 
+ 
+ 
+ 
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    .header_bg{
+        background-size:cover;
+
+    }
+    .header .header_text_bg{
+        margin-left:5%;
+        width:90%;
+    }  
+    .header .header_text{
+        width:100%;
+        padding: 5% 10%;
+    }
+    .header .header_text_bg .header_text  .display-2 {
+        font-size: 295%;
+        
+    }
+    .header .header_text_bg .header_text  p{
+        padding:6%;
+    }
+
+    .catagory {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    .catagory ul {
+        display:block !important;
+    }
+
+    .gallery{
+        padding-left: 50px;;
+    }
+    .gallery .img-fluid{
+        max-width:90%;
+        margin-bottom: 15px;
+    }
+
+
+
+    .about_left {
+        margin-top: 0px;
+
+        text-align: center;
+        padding: 0px;
+    }
+    .about_left .display-3{
+        font-size:210%
+        
+    }
+    .about_left p{
+        width:100%;
+        padding: 10%;
+        padding-top: 0%;
+        text-align:center;
+        margin-top: 5%;
+
+    }
+    .about_left .display-3 {
+        padding-left: 0%;
+    }
+    
+    .about_right img {
+        width: 100%;
+        padding: 5%;
+        
+    }
+    .work_left img{
+        width:100%;
+        padding:5%;
+    }
+
+    .work_right {
+        margin-top: 0px;
+
+        text-align: center;
+        padding: 0px;
+    }
+    .work_right .display-3{
+        font-size:210%
+        
+    }
+    .work_right p{
+        width:100%;
+        padding: 10%;
+        padding-top: 0%;
+        text-align:center;
+        margin-top: 5%;
+
+    }
+    .work_right .display-3 {
+        padding-left: 0%;
+    }
+    .price_list .d-flex{
+        display: block !important;
+    }
+    .pricing{
+        padding: 15%;
+    }
+    .pricing ul{
+        margin-bottom: 15%;
+    }
+    .pricing ul li small{
+        padding: 2% 31.5%;
+       
+    }
+    .pricing ul .display-3{
+        padding: 5%;
+    }
+    
+
+    .pricing .p1 li small, .p2 li small, .p3 li small{
+    font-size: 90%;
+    }
+    .contact {
+        padding: 10% 5%;
+    }
+    .contact .display-3 {
+        font-size: 2.5rem;
+    }
+    .form{
+        margin-top: 10%;
+    }
+    form .d-flex{
+        display:unset !important;
+    }
+    .contact .form-control {
+        margin: 4%;
+        padding: 20px 40px;
+    }
+}
+   
